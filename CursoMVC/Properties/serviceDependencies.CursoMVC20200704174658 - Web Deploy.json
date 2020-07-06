@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.Sql/servers/cursomvcdbserver02/databases/CursoMVC_db",
+      "type": "mssql.azure",
+      "connectionId": "CursoMVC_db01",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
